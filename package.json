@@ -1,0 +1,21 @@
+{
+  "name": "cypresstestautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke_test": "cypress run --spec \"cypress\\e2e\\smokeTests\\login.cy.js\"",
+    "e2e_test": "cypress run",
+    "open": "cypress open",
+    "test-chrome": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
