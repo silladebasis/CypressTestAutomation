@@ -16,6 +16,7 @@ class HomePage{
 
     clickOnSettings(){
         cy.contains(this.getSettings()).click()
+        cy.screenshot('clicked on settings')
     }
 }
 
